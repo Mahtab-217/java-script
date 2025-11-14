@@ -66,3 +66,16 @@ for(let i=0;i<10;i++ ){
 for(let me="10"; me>0;me--){
     console.log("MAhtab Nasiri "+me)
 }
+for(let n=15;n>0; n--){
+    console.log(n)
+}
+const lastName="Mahtab";
+switch(lastName){
+    case "Mahtab":
+        console.log("Hi my dear Mahtab");
+        break;
+    case "Ali":
+        console.log("Hi my dear Ali");
+    case "Sina":
+        console.log("Hi dear Sina");
+}
