@@ -76,6 +76,11 @@ switch(lastName){
         break;
     case "Ali":
         console.log("Hi my dear Ali");
+        break;
     case "Sina":
         console.log("Hi dear Sina");
+}
+const number =prompt("Enter a number")
+for(let n=1; n<=10;n++){
+    console.log(n+"*"+number+"="+n*number)
 }
