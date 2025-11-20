@@ -1,13 +1,16 @@
-function sum(num1, num2, num3, num4){
-    console.log(num1*num2+num3+num4)
-}
-sum(7,4,4,3);
-sum(78,21,89,38);
-sum(2,4,54,908,1000);
+const h1 =document.getElementById("h1");
+const btn = document.getElementById("btn");
+const btn2 =document.getElementById("btn2");
 
+btn.addEventListener("click", ()=>{
+    h1.innerHTML = "Your Data Is Saved ";
+})
+btn2.addEventListener("click", ()=>{
+    h1.innerHTML="";
+})
 
-function multiply(num1,num2,num3){
-    console.log(num1*num2*num3)
+const greeting = function(name){
+return "Hello Dear "+name;
 }
-multiply(4,90,3);
-multiply(1908140,457880,6777868787834)
+const Mah= greeting("Mahtab");
+const Hasti = greeting("Hasti");
