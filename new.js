@@ -8,7 +8,7 @@ console.log("Hi there dear "+name +" "+lastName);
 greeting("Gandom","Raha");
 
 const Hi =(name,lastName) => ` Welcome dear ${name}${lastName}`;
-const Hello =Hi(" Sama ", " Alisada");
+const Hello =Hi(" Sama ", " Alizada");  
 
 const Say=(a,b="Frishta")=>`Your father name is ${a} and your own name is ${b}`;
 const say= Say("Asghar");
